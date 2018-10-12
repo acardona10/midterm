@@ -42,7 +42,7 @@
         
         
         <script type="text/javascript" src="data.js"></script>
-        <script type="text/javascript" src="data1.js"></script>
+        <script type="text/javascript" src="data4.js"></script>
         
         
     </head>
@@ -163,7 +163,7 @@ function resetHighlight(e) {
            + '<p style="color:black">' + layers.feature.properties.per_aging.toString() + ' percent aging </p>';       
 }).addTo(map);           
              
-        var counties = geojson = L.geoJson(data1, {
+        var counties = geojson = L.geoJson(data4, {
     style:style,
     onEachFeature: onEachFeature
 }).bindTooltip(function (layers){
